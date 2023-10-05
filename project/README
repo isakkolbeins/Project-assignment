@@ -12,6 +12,15 @@ You must do the following before you launch the project on Kathara:
    - Similarly, asXs1, asXc1 for s1 and c1, respectively.
    - You must add folder and startup script for all device including clients
      even though there is no extra config (you simply have an empty folder)
+    - as125r1 #
+    - as125r2
+    - as125r3
+    - as125r4
+    - as125s1
+    - as125s2
+    - as125s3
+    - as125c1
+    - as125c2
 
 START KATHARA
 ------------------------
