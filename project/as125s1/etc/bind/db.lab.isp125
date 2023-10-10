@@ -1,0 +1,48 @@
+$TTL   60000
+@               IN      SOA     ns.isp125.lab. root.isp125.lab. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                   IN      NS      ns.isp125.lab.
+ns		    IN      A       1.125.1.2
+www		    IN	    A	1.125.1.3   
+dhcpd		    IN	    A	1.125.1.4
+
+r1eth0		        IN      A       1.0.0.5
+r1eth1		        IN	    A       1.125.11.0
+r1eth2		        IN      A       1.125.12.0
+r1eth3              IN      A       1.125.13.0
+r1dummy0               IN      A       1.125.0.1
+r2eth0		        IN	    A       2.21.0.1
+r2eth1		        IN      A       1.125.11.1
+r2eth2		        IN	    A       1.125.14.0
+r2dummy0               IN      A       1.125.0.2
+r3eth0		        IN      A       1.125.1.1
+r3eth1		        IN	    A       1.125.15.1
+r3eth2		        IN      A       1.125.14.1
+r3eth3              IN      A       1.125.13.1
+r3dummy0               IN      A       1.125.0.3
+r4eth0		        IN	    A       1.125.2.1
+r4eth1		        IN      A       1.125.15.0
+r4eth2		        IN	    A       1.125.12.1
+r4dummy0               IN      A       1.125.0.4
+
+client10            IN      A       1.125.2.10
+client11 		    IN		A		1.125.2.11
+client12 		    IN		A		1.125.2.12
+client13 		    IN		A		1.125.2.13
+client14 		    IN		A		1.125.2.14
+client15 		    IN		A		1.125.2.15
+client16 		    IN		A		1.125.2.16
+client17 		    IN		A		1.125.2.17
+client18 		    IN		A		1.125.2.18
+client19 		    IN		A		1.125.2.19
+client20 		    IN		A		1.125.2.20
+
+
+gw		    IN      A       1.0.1.1
+dnsroot		    IN      A       1.0.1.2
+labdns		IN	A	2.0.1.2

@@ -1,0 +1,48 @@
+$TTL	604800
+@	IN	SOA	ns.isp125.lab. root.isp125.lab. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+
+@		                  IN	  NS	  ns.isp125.lab.
+11.1.in-addr.arpa.		  IN	  NS	  ns.isp11.lab.
+12.1.in-addr.arpa.		  IN	  NS	  ns.isp12.lab.
+2.1.125.1.in-addr.arpa.	  IN      PTR     ns.isp125.lab.
+3.1.125.1.in-addr.arpa.	  IN      PTR     www.isp125.lab.
+4.1.125.1.in-addr.arpa.   IN      PTR     dhcp.isp125.lab.
+
+5.0.0.1.in-addr.arpa.     IN      PTR     r1eth0.isp125.lab.
+0.11.125.1.in-addr.arpa.   IN      PTR     r1eth1.isp125.lab.
+0.12.125.1.in-addr.arpa.   IN      PTR     r1eth2.isp125.lab.
+0.13.125.1.in-addr.arpa.   IN      PTR     r1eth3.isp125.lab.
+1.0.125.1.in-addr.arpa.  IN      PTR     r1dummy0.isp125.lab.
+1.0.21.2.in-addr.arpa.    IN      PTR     r2eth0.isp125.lab.
+1.11.125.1.in-addr.arpa.   IN      PTR     r2eth1.isp125.lab.
+0.14.125.1.in-addr.arpa.   IN      PTR     r2eth2.isp125.lab.
+2.0.125.1.in-addr.arpa.  IN      PTR     r2dummy0.isp125.lab.
+1.1.125.1.in-addr.arpa.   IN      PTR     r3eth0.isp125.lab.
+1.15.125.1.in-addr.arpa.   IN      PTR     r3eth1.isp125.lab.
+1.14.125.1.in-addr.arpa.   IN      PTR     r3eth2.isp125.lab.
+1.13.125.1.in-addr.arpa.   IN      PTR     r3eth3.isp125.lab.
+3.0.125.1.in-addr.arpa.  IN      PTR     r3dummy0.isp125.lab.
+1.2.125.1.in-addr.arpa.   IN      PTR     r4eth0.isp125.lab.
+0.15.125.1.in-addr.arpa.   IN      PTR     r4eth1.isp125.lab.
+1.12.125.1.in-addr.arpa.   IN      PTR     r4eth2.isp125.lab.
+0.4.125.1.in-addr.arpa.  IN      PTR     r4dummy0.isp125.lab.
+
+10.2.125.1.in-addr.arpa.   IN	  PTR	  client10.isp125.lab.
+11.2.125.1.in-addr.arpa.   IN	  PTR	  client11.isp125.lab.
+12.2.125.1.in-addr.arpa.   IN	  PTR	  client12.isp125.lab.
+13.2.125.1.in-addr.arpa.   IN	  PTR	  client13.isp125.lab.
+14.2.125.1.in-addr.arpa.   IN	  PTR	  client14.isp125.lab.
+15.2.125.1.in-addr.arpa.   IN	  PTR	  client15.isp125.lab.
+16.2.125.1.in-addr.arpa.   IN	  PTR	  client16.isp125.lab.
+.2.7.125.1.in-addr.arpa.   IN	  PTR	  client.2.isp125.lab.
+18.2.125.1.in-addr.arpa.   IN	  PTR	  client18.isp125.lab.
+19.2.125.1.in-addr.arpa.   IN	  PTR	  client19.isp125.lab.
+20.2.125.1.in-addr.arpa.   IN	  PTR	  client20.isp125.lab.
+
+125.1.in-addr.arpa.		  IN	  NS	  ns.isp125.lab.
