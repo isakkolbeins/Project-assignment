@@ -1,0 +1,2 @@
+INTERFACES = "eth0 eth1 eth2"
+SERVERS = "1.125.1.4"
