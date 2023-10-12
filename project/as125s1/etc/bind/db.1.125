@@ -40,7 +40,7 @@ $TTL	604800
 14.2.125.1.in-addr.arpa.   IN	  PTR	  client14.isp125.lab.
 15.2.125.1.in-addr.arpa.   IN	  PTR	  client15.isp125.lab.
 16.2.125.1.in-addr.arpa.   IN	  PTR	  client16.isp125.lab.
-.2.7.125.1.in-addr.arpa.   IN	  PTR	  client.2.isp125.lab.
+17.2.125.1.in-addr.arpa.   IN	  PTR	  client17.isp125.lab.
 18.2.125.1.in-addr.arpa.   IN	  PTR	  client18.isp125.lab.
 19.2.125.1.in-addr.arpa.   IN	  PTR	  client19.isp125.lab.
 20.2.125.1.in-addr.arpa.   IN	  PTR	  client20.isp125.lab.

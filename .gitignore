@@ -1,3 +1,5 @@
 *.old
 *.txt
+*.swp
+
 project/shared/
